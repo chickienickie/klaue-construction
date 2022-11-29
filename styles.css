@@ -1,0 +1,126 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.top-title {
+  text-transform: uppercase;
+  color: rgba(241, 241, 247, 0.75);
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+.fa-solid {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.service-title {
+  margin-top: 0px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services-info {
+  margin-bottom: 5px;
+  color: #919197;
+}
+
+.services {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5%;
+  padding-right: 5%;
+  width: 25%;
+}
+
+.nav-text {
+  color: gray;
+  text-transform: uppercase;
+}
+
+button {
+  background: white;
+  color: black;
+  margin: 5px 15px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.testimonial-box {
+  color: black;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5%;
+  padding-right: 5%;
+  width: 25%;
+}
+
+.testimonial-box-background {
+  background-color: rgba(241, 241, 247, 0.75);
+  opacity: 0.5;
+}
+
+.client-name {
+  color: black;
+  font-size: 30px;
+}
+
+.review {
+  margin-top: 0px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.whoweare-img {
+  margin-bottom: 84px;
+  width: 50%;
+}
+
+.banner {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(241, 241, 247, 0.75);
+  opacity: 0.5;
+}
+
+.navbar {
+  color: black;
+}
+
+.title {
+  color: black;
+  font-size: 90px;
+}
