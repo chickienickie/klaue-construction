@@ -21,6 +21,7 @@ h2 {
   text-transform: uppercase;
   line-height: 70px;
   font-weight: 500;
+  text-align: left;
 }
 
 .fa-solid {
@@ -79,6 +80,7 @@ button {
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 1px;
+  margin: 0;
 }
 
 .testimonial-box {
@@ -143,8 +145,8 @@ button {
 }
 .image-gallery {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
+  padding: 0;
 }
 
 .image-gallery li {
@@ -166,6 +168,7 @@ button {
   line-height: 1;
   margin: 0 0 20px;
   text-align: center;
+  margin-top: 120px;
 }
 .whoweare-img {
   float: left;
@@ -260,12 +263,117 @@ a:visited {
   color: black;
 }
 
+a {
+  color: black;
+}
 .title {
   text-transform: uppercase;
   font-size: 50px;
-  margin: 0;
+  margin: 15px;
+  margin-bottom: 2px;
 }
 
 p {
   color: #666;
+}
+
+.footer-banner {
+  padding: 0;
+}
+
+.footer-list {
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  padding: 0;
+  margin: 35px;
+}
+
+ul {
+  padding: 0;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sub-text {
+  color: black;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  h2,
+  .top-title {
+    font-size: 22px;
+    line-height: normal;
+  }
+  .banner {
+    min-height: fit-content;
+  }
+  .services {
+    padding: 0;
+    width: 50%;
+    float: none;
+    align-items: center;
+  }
+  .service-title {
+    font-size: 12px;
+  }
+  .services-info {
+    font-size: 10px;
+  }
+  .fa-solid {
+    font-size: 35px;
+  }
+
+  button {
+    margin: 0;
+    padding-bottom: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .image-gallery {
+    display: inline-block;
+    gap: 10px;
+    padding: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .client-name {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .review {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  .info-paragraph {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+  .about {
+    font-size: 26px;
+  }
+  .whoweare-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  span {
+    display: contents;
+  }
+  .text-center {
+    text-align: left !important;
+  }
+  .footer-list {
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
 }
